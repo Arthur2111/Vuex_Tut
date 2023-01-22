@@ -29,6 +29,7 @@ const store = createStore({
     },
     increase(context, payload) {
       console.log(context);
+      console.log(context);
       context.commit('increase', payload);
     },
     login(context) {
